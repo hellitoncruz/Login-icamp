@@ -209,12 +209,12 @@ button:hover {
 }
 .header-login h1 {
     margin-left: 10px;
-    font-size: 24px;
+    font-size: 1.8rem;
 }
 
 p {
     color: var(--text-base);
-    font-size: 14px;
+    font-size: 0.8rem;
 
 }
 
@@ -234,22 +234,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 aside img{
     position: absolute;
     top: 0;
@@ -257,3 +241,76 @@ aside img{
     height: 100vh;
     width: 38vw;
 }
+
+
+
+
+@media(max-width: 991px) {
+    aside {
+        display: none;
+    }
+    main {
+        margin: auto;
+    }
+}
+
+@media(max-width: 768px) {
+    
+    .main-container {
+        width: 50vw;
+    }
+    .header-login h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+    .checkout-container {
+        font-size: 13px;
+        display: block;
+    }
+    .checkout-container p{
+        font-size: 13px;
+        padding-top: 10px;
+    }
+}   
+
+@media(max-width: 375px) {
+    .form-container {
+        width: 100vw;
+        background: var(--background);
+    }
+    .header-login h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+    .checkout-container {
+        font-size: 13px;
+        display: block;
+    }
+    .checkout-container p{
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #email, #password{
+        width: 80vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
